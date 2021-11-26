@@ -1,0 +1,22 @@
+body{
+    color:#71C0BE;
+    background:#387377;
+    font-size:20px;
+   /* margin: 0;  REMOVE THE MARGIN FROM THE BODY */
+}
+
+element.style {
+}
+body {
+    display: grid;
+    grid-template-areas:
+        "header header ads"
+        "nav article article"
+        "nav footer footer";
+
+    grid-row-gap: 100px;
+    grid-column-gap: 4px;
+    height: 100vh;
+    margin: 0;
+}
+
