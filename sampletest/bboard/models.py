@@ -20,7 +20,7 @@ class Rubric(models.Model):
     def __str__(self):
         return self.name
 
-    class Mets:
-        vebose_name_plural = 'Рубрики'
-        vebose_name = 'Рубрика'
+    class Meta:
+        verbose_name_plural = 'Рубрики'
+        verbose_name = 'Рубрика'
         ordering = ['name']
